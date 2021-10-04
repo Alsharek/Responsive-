@@ -1,0 +1,111 @@
+
+    body {  
+        margin: 0;
+        padding: 0;
+    }
+    
+    h3 { 
+        text-align: center;
+    }
+    
+    p { 
+        text-align: center;
+    }
+    
+    
+    @media only screen and ( max-width: 300px)  {
+        body {  
+            background-color: #bd1b1b;
+        } 
+        #small {  
+            float:left;
+            width: fit-content;
+            height: fit-content;
+            visibility: visible;
+            position: relative;
+            font-weight: 200;
+            font-size: x-large;
+        } 
+        #medium {  
+            float: left;
+            width: fit-content;
+            height: fit-content; 
+            visibility: visible;
+            position: relative;
+            
+        }
+        #large { 
+            float: left;
+            width: fit-content;
+            height: fit-content;
+            visibility: visible;
+            position: relative;
+          
+        }
+    }
+    
+    @media only screen and ( min-width:300px) and ( max-width:768px ) { 
+        body {  
+            background-color: #1bbd36 ;
+        }
+        #small { 
+            float: left;
+            width: 66%;
+            height: fit-content;
+            visibility: visible;
+            position: relative;
+            
+            
+        }
+        #medium {   
+            float:right;
+            width: 33%;
+            height: fit-content;
+            visibility: visible;
+            position: relative;
+            font-weight: 300;
+            font-size: x-large;
+           
+            
+        }
+        div#large { 
+            float:left;
+            width: 100%;
+            height: fit-content;
+            visibility: visible;
+            position: relative;
+            
+        }   
+    }
+    
+    @media only screen and ( min-width: 768px ) {   
+        body {  
+            background-color: #313fbb ;
+        }
+        #small { 
+            float: left;
+            width: 33%;
+            height: fit-content;
+            visibility: visible;
+            position: relative;
+            
+        }
+        #medium {   
+            float: left;
+            width: 33%;
+            height: fit-content;
+            visibility: visible;
+            position: relative;
+            
+        }
+        #large { 
+            float: left;
+            width: 33%;
+            height: fit-content;
+            visibility: visible;
+            position: relative;
+            font-weight: 300;
+            font-size: x-large;
+            
+            
+        }
